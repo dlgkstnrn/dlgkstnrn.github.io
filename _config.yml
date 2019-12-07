@@ -23,7 +23,11 @@ baseurl : # does not include hostname
 title   : LHSGIT
 description: > # this means to ignore newlines until "Language & timezone"
   LHSGIT
-
+  
+webrick:
+  headers:
+    My-Header: Hansu
+    My-Other-Header: LHS
 
 ## => Language and Timezone
 ##############################
@@ -35,7 +39,7 @@ timezone: # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for
 ##############################
 author:
   type      : # "person" (default), "organization"
-  name      : Your Name
+  name      : Hansu
   url       :
   avatar    : # path or url of avatar image (square)
   bio       : I am an amazing person.
